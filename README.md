@@ -1,2 +1,2 @@
 # RockPaperScissors
-Working Rock Paper Scissors game created with HTML and JS
+Working Rock Paper Scissors game created with HTML, CSS and JS

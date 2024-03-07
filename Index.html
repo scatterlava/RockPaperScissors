@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Rock Paper Scissors Game</title>
-    <link rel="stylesheet" href="styles.css">
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Rock Paper Scissors Game</title>
+   <link rel="stylesheet" href="styles.css">
 
-  </head>
+</head>
 
-  <body>
-    <header>
-    <h1>Rock Paper Scissors</h1>
-    </header>
+<body>
+  <header>
+  <h1>Rock Paper Scissors</h1>
+  </header>
 
-    <div class="score-board">
-    <div id="user-label" class="badge">user</div>
-    <div id="computer-label" class="badge">comp</div>
-    <span id="user-score">0</span>:<span id="computer-score">0</span>
+  <div class="score-board">
+  <div id="user-label" class="badge">user</div>
+  <div id="computer-label" class="badge">comp</div>
+  <span id="user-score">0</span>:<span id="computer-score">0</span>
+  </div>
+
+  <div class="result">
+    <p> Welcome to Rock Paper Scissors Game </p>
+  </div>
+
+  <div class="choices">
+    <div class="choice" id="r">
+      <img src="images\rock.png" width="200" height="200" alt="">
     </div>
-
-    <div class="result">
-      <p> Welcome to Rock Paper Scissors Game </p>
+    <div class="choice" id="p">
+      <img src="images\paper.png" width="200" height="200" alt="">
     </div>
-
-    <div class="choices">
-      <div class="choice" id="r">
-        <img src="images\rock.png" width="200" height="200" alt="">
-      </div>
-      <div class="choice" id="p">
-        <img src="images\paper.png" width="200" height="200" alt="">
-      </div>
-      <div class="choice" id="s">
-        <img src="images\scissors.png" width="200" height="200" alt="">
-      </div>
+    <div class="choice" id="s">
+      <img src="images\scissors.png" width="200" height="200" alt="">
     </div>
+  </div>
 
-    <p id="action-message">Make your Move</p>
-    <script type="text/javascript" src="app.js"></script>
-  </body>
-</html>
+  <p id="action-message">Make your Move</p>
+  <script type="text/javascript" src="app.js"></script>
+</body>

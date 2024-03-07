@@ -44,7 +44,7 @@ function draw(userChoice, computerChoice) {
   //console.log("Draw");
   userscore_span.innerHTML = userscore;
   computerscore_span.innerHTML = computerscore;
-  result_p.innerHTML = "It's a Tie! :poop:";
+  result_p.innerHTML = "It's a Tie!";
 }
 
 function game(userChoice) {
